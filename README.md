@@ -9,7 +9,7 @@ near future.
 
 Please refer to our paper for more details on the proposed algorithm:
 
-Hongge Chen, Huan Zhang, Duane Boning, and Cho-Jui Hsieh ["Robust Decision Trees Against Adversarial Examples"](https://arxiv.org/abs/1902.10660), ICML 2019
+Hongge Chen, Huan Zhang, Duane Boning, and Cho-Jui Hsieh ["Robust Decision Trees Against Adversarial Examples"](https://arxiv.org/abs/1902.10660), ICML 2019 [[video of the talk]](https://slideslive.com/38916896/supervised-learning) [[slides]](https://icml.cc/media/Slides/icml/2019/seasideball(11-14-00)-11-14-00-4401-robust_decision.pdf)
 
 <p align="center">
   <img src="https://www.huan-zhang.com/images/upload/robust-tree/robust_gbdt.png" alt="robust_gbdt" width="50%" height="50%"/>
