@@ -9,11 +9,15 @@ near future.
 
 Please refer to our paper for more details on the proposed algorithm:
 
-Hongge Chen, Huan Zhang, Duane Boning, and Cho-Jui Hsieh ["Robust Decision Trees Against Adversarial Examples"](https://arxiv.org/abs/1902.10660), ICML 2019 [[video of the talk]](https://slideslive.com/38916896/supervised-learning) [[slides]](https://icml.cc/media/Slides/icml/2019/seasideball(11-14-00)-11-14-00-4401-robust_decision.pdf)
+Hongge Chen, Huan Zhang, Duane Boning, and Cho-Jui Hsieh ["Robust Decision Trees Against Adversarial Examples"](https://arxiv.org/abs/1902.10660), ICML 2019 [[video of the talk]](https://slideslive.com/38916896/supervised-learning) [[slides]](https://icml.cc/media/Slides/icml/2019/seasideball(11-14-00)-11-14-00-4401-robust_decision.pdf)[[poster]](https://s3.amazonaws.com/postersession.ai/0d7f42aa-707e-44bd-960d-a6dd2b9dd8aa.pdf)
+
+We also provide our implementation of an attack proposed in [Kantchelian et al. ICML 2016](https://arxiv.org/abs/1509.07892) to test the robustness of a GBDT model. This method uses Mixed Integer Linear Programming (MILP) to find the **exact minimum** adversarial example.
 
 <p align="center">
   <img src="https://www.huan-zhang.com/images/upload/robust-tree/robust_gbdt.png" alt="robust_gbdt" width="50%" height="50%"/>
 </p>
+
+**Sep 4, 2019: Checkout our new tree ensemble verification method in NeurIPS 2019! It is much faster and very tight compared to MILP.** [[GitHub]](https://github.com/chenhongge/treeVerification) [[paper]](https://arxiv.org/abs/1906.03849)
 
 ## Installation
 
@@ -25,7 +29,7 @@ cd RobustTrees
 ```
 
 For detailed compilation options please refer to [XGBoost Documentation](https://xgboost-clone.readthedocs.io/en/latest/build.html).
-For building Python package interface, see [these instructions](python-package/README.md).
+For building Python package interface, see [these instructions](https://xgboost.readthedocs.io/en/latest/build.html).
 
 ## Run
 
@@ -120,7 +124,7 @@ to multi-class models by targeting all classes other than the predicted one.
 
 This code uses Gurobi to solve the MILP problem and is tested in Python 3.6.8. We suggest to use Conda to manage your Python environments. The following packages need to be installed:
 
-```
+```bash
 # just install the original XGBoost
 conda install -c conda-forge xgboost 
 conda install -c gurobi gurobi 
