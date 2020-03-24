@@ -455,7 +455,7 @@ class xgbMultiClassKantchelianAttack(object):
 					dist = np.linalg.norm(x-adv,ord=self.order)
 					suc = adv_pred != label
 					print('target label {}, adv dist:{}, adv predict:{}, success:{}'.format(l, dist, adv_pred, suc))
-					if dist < min_dist:
+					if suc and (dist < min_dist):
 						final_adv = adv
 						min_dist = dist
 		if self.LP:
