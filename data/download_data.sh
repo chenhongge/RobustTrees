@@ -8,8 +8,8 @@ wget https://www.dropbox.com/s/zupoutq46x9u0f6/diabetes_scale0.test
 wget https://www.dropbox.com/s/zk24xw1qlw8ukr4/diabetes_scale0.train
 wget https://www.dropbox.com/s/fmw4flrfe1bd1gf/ijcnn1s0
 wget https://www.dropbox.com/s/yn054bjmyt0fzpt/ijcnn1s0.t
-wget https://www.dropbox.com/s/x6cvvfz88ovsbqf/cod-rna_s
-wget https://www.dropbox.com/s/cogq64n9avjxj46/cod-rna_s.t
+wget https://www.dropbox.com/s/mqyzyi0mrcz5pr6/cod-rna_s0 
+wget https://www.dropbox.com/s/pjzo7izntpesoig/cod-rna_s.t0
 wget https://www.dropbox.com/s/1v8d4rvo3xlup9d/Sensorless.scale.val0
 wget https://www.dropbox.com/s/u7h9z2h56e1k0ka/Sensorless.scale.tr0
 wget https://www.dropbox.com/s/0w4spp85hgh1hhq/fashion.test0
